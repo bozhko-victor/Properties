@@ -67,5 +67,3 @@ task many_tags_tests(type: Test) {
         excludeTags "prod"
     }
 }
-// gradle clean test -DremoteUrl=selenoid.autotests.cloud/wd/hub/
-// gradle clean properties_tests -Dbrowser=opera -Dversion=93
